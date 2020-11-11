@@ -1,0 +1,26 @@
+.modal{
+    &__content {
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        background-color: white;
+        width: 70rem;
+        height: 20rem;
+        text-align: center;
+        top: 50%;
+        left: 50%;
+        right: auto;
+        bottom: auto;
+        margin-right: -50%;
+        transform: translate(-50%, -50%);
+        border: none;
+        outline: none;
+      }
+      &__btn{
+          margin-top: 2rem;
+          &:not(:last-child){
+              margin-right: 2rem;
+          }
+      }
+}

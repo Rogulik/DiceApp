@@ -1,0 +1,30 @@
+@import './App.scss';
+
+.history{
+    &__container{
+        overflow-y: scroll;
+        width: 18rem;
+        max-height: 42rem;
+        justify-self: flex-start;
+        align-self: flex-start;
+    }
+    &__item{
+        background-color: $color-sea-blue-dark;
+        text-align: center;
+        padding: 1.5rem;
+        border-radius: 5px;
+        color: white;
+
+        &:not(:last-child){
+            margin-bottom: 1rem;
+        }
+        
+        &-statistics{
+            font-size: 1.8rem;
+
+            &:not(:last-child){
+                margin-bottom: .5rem;
+            }
+        }
+    }
+}

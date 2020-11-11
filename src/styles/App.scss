@@ -1,0 +1,33 @@
+
+$color-primary: #fcf876;
+
+$color-secondary: #cee397;
+
+$color-grey-light-1: #f9f7f6;
+$color-grey-light-2: #aaa;
+
+$color-sea-blue: #8bcdcd;
+$color-sea-blue-dark: #3797a4;
+
+$color-grey-dark-1: #54483A;
+$color-grey-dark-2: #6D5D4B;
+
+// FONT VARIABLES
+$font-primary:  -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+sans-serif;;
+$font-display: 'Josefin Sans', sans-serif;
+
+.App{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+
+    .main-content{
+        display: flex;
+    }
+}
