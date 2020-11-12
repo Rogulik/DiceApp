@@ -1,1 +1,1 @@
-Simplr Dice game built with React
+Simple Dice game built with React
